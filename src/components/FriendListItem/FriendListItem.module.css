@@ -1,0 +1,23 @@
+.item {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.name {
+  font-size: large;
+}
+
+.status {
+  font-size: small;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
