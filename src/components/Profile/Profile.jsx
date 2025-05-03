@@ -21,15 +21,15 @@ const Profile = ({
         <ul>
           <li>
             <span>Followers</span>
-            <span>{followers}</span>
+            <span className={styles.metadata}>{followers}</span>
           </li>
           <li>
             <span>Views</span>
-            <span>{views}</span>
+            <span className={styles.metadata}>{views}</span>
           </li>
           <li>
             <span>Likes</span>
-            <span>{likes}</span>
+            <span className={styles.metadata}>{likes}</span>
           </li>
         </ul>
       </div>
