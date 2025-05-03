@@ -1,0 +1,12 @@
+.table {
+  margin-top: 64px;
+}
+
+.table tr {
+  text-transform: capitalize;
+}
+
+.table thead tr {
+  color: white;
+  background-color: black;
+}
