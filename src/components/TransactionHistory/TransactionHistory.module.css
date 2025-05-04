@@ -1,12 +1,24 @@
 .table {
   margin-top: 64px;
+  border-collapse: collapse;
+}
+
+.table thead {
+  color: white;
+  background-color: rgb(50, 50, 50);
 }
 
 .table tr {
   text-transform: capitalize;
 }
 
-.table thead tr {
-  color: white;
-  background-color: black;
+.table th,
+.table td {
+  padding: 8px 64px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table tr:nth-child(2n) {
+  background-color: rgb(200, 200, 200);
 }
